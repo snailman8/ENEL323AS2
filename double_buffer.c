@@ -34,7 +34,7 @@ void bf_wheel1_add(uint16_t value)
 void test_print_rbuff()
 {
     uint8_t bf_i;
-    printf("read buffer: [
+    printf("read buffer: [");
     for(bf_i = 0; bf_i < WHEEL_BUFFER_SIZE; bf_i++)
     {
         fprint("%i ", bf_wheel1_r[bf_i]);
@@ -45,7 +45,7 @@ void test_print_rbuff()
 void test_print_rbuff()
 {
     uint8_t bf_i;
-    printf("write buffer: [
+    printf("write buffer: [");
     for(bf_i = 0; bf_i < WHEEL_BUFFER_SIZE; bf_i++)
     {
         fprint("%i ", bf_wheel1_w[bf_i]);
