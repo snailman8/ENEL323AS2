@@ -13,12 +13,12 @@
 
 #define WHEEL_BUFFER_SIZE 10
 
-static int bf_wheel1_w[WHEEL_BUFFER_SIZE];  //the array new data is written to.
-static int bf_wheel1_r[WHEEL_BUFFER_SIZE];  //the array data is calculated from
+static uint16_t bf_wheel1_w[WHEEL_BUFFER_SIZE];  //the array new data is written to.
+static uint16_t bf_wheel1_r[WHEEL_BUFFER_SIZE];  //the array data is calculated from
 static uint8_t bf_wheel1_index = 0;
 
 
-void bf_wheel1_add(int value)
+void bf_wheel1_add(uint16_t value)
 {
     uint8_t bf_i = 0;
     printf("break1 %i\n", value);

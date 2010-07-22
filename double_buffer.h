@@ -17,7 +17,7 @@
     buffer if required
     @param value value to be read into the buffer
 */
-void bf_wheel1_add(int value);
+void bf_wheel1_add(uint16_t value);
 
 /**
 prints the contents of the read buffer to terminal

@@ -12,10 +12,10 @@
 
 void main (void)
 {
-    int i = 0;
-    for (i =0; i<20; i++)
+    uint8_t i = 0;
+    for (i =0; i<=20; i++)
     {
-        int a;
+        uint8_t a;
         printf("Enter a number into the buffer:\n");
         
         scanf ("%d",&a);
@@ -24,5 +24,5 @@ void main (void)
         test_print_wbuff();
         printf("read buffer average: %i\n", bf_wheel1_average());
     }
-    printf("end of test program");
+    printf("end of test program\n");
 }
