@@ -21,13 +21,10 @@ static uint8_t bf_wheel1_index = 0;
 void bf_wheel1_add(uint16_t value)
 {
     uint8_t bf_i = 0;
-    printf("break1 %i\n", value);
     bf_wheel1_w[bf_wheel1_index] = value;
-    printf("break2\n");
     if(bf_wheel1_index < WHEEL_BUFFER_SIZE - 1)
     {
         bf_wheel1_index++;
-        printf("break3\n");
     }
     else
     {
