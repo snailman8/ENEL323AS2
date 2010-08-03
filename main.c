@@ -2,10 +2,12 @@
 @File main.c
 @Author Ben Snalam and Kirstin Middelkoop
 @Date 22/7/2010
-@Brief main program
+@Brief test program for double_buffer
 */
 
 #include "double_buffer.h"
+#include <config.h>
+#include <target.g>
 #include <stdint.h>
 #include <stdlib.h>
 #include <stdio.h>
