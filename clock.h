@@ -16,6 +16,11 @@
   /**
   displays current clocktime to LCD
   */
-  void clock_show(void)
+  void clock_show(void);
+   
+  /**
+  waits for the end of the clock period
+  */
+  void clock_wait();
   
   #endif /* CLOCK_H */

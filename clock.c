@@ -6,6 +6,12 @@
 */
   
 #include <clock.h>
+#define CLOCK_MAX 256 
+
+/**
+for refernce
+TCNT2 = clock counter
+*/
 
   void clock_init()
   {
@@ -27,3 +33,10 @@
   {
       
   }
+  
+  void clock_wait
+  {
+      while(TCNT2 < CLOCK_MAX)
+      {
+          continue;
+      }
